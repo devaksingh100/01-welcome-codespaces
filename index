@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charity: Water - Lead the Future</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Avenir&display=swap');
+
+        body {
+            margin: 0;
+            font-family: 'Avenir', 'Proxima Nova', Arial, sans-serif;
+            background-color: #003366; /* Correct blue */
+            color: white;
+            overflow-x: hidden;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: white;
+        }
+        header img {
+            height: 40px;
+            transition: transform 0.3s;
+        }
+        header img:hover {
+            transform: scale(1.1);
+        }
+        header a {
+            background-color: #FFC907; /* Correct yellow */
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s, transform 0.3s;
+            font-family: 'Avenir', 'Proxima Nova', Arial, sans-serif;
+        }
+        header a:hover {
+            background-color: #e6b800;
+            transform: scale(1.05);
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            padding: 50px;
+        }
+        .content {
+            max-width: 500px;
+            transition: transform 0.3s;
+        }
+        .content:hover {
+            transform: translateY(-5px);
+        }
+        .content h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .content p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 30px;
+        }
+        .cta-button {
+            background-color: #FFC907; /* Correct yellow */
+            color: white;
+            text-decoration: none;
+            padding: 15px 25px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            transition: background-color 0.3s, transform 0.3s;
+            font-family: 'Avenir', 'Proxima Nova', Arial, sans-serif;
+        }
+        .cta-button:hover {
+            background-color: #e6b800;
+            transform: scale(1.05);
+        }
+        .image-section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+        .image-section img:hover {
+            transform: scale(1.05);
+        }
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                text-align: center;
+            }
+            .content {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="images/charity-water.png" alt="charity: water logo">
+        <a href="#">Start Creating Change</a>
+    </header>
+
+    <div class="container">
+        <div class="content">
+            <h1>Lead the Future of Global Impact with Clean Water</h1>
+            <p>100% of your donation directly funds clean water projects. Receive detailed reports and real stories that show your measurable impact.</p>
+            <a href="#" class="cta-button">Start Creating Change ➔</a>
+        </div>
+        <div class="image-section">
+            <img src="images/girl-with-water.png" alt="Girl with water jug">
+
+        </div>
+    </div>
+
+</body>
+</html>
+
+
